@@ -9,15 +9,15 @@
 
 int main(void)
 {
-  char small;
+char small;
 
-  for (small = 'z'; small >= 'a'; small--)
-    {
-      putchar(small);
-    }
+for (small = 'z'; small >= 'a'; small--)
+{
+putchar(small);
+}
 
-  putchar('\n');
+putchar('\n');
 
-  return (0);
+return (0);
 }
 

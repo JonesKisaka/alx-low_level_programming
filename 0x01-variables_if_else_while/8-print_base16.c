@@ -8,22 +8,22 @@ able File  27 lines (21 sloc)  345 Bytes
  *Return: always 0
  */
 
-  int main(void)
+int main(void)
 {
-  int  hexan;
+int  hexan;
 
-  char hexa;
+char hexa;
 
-  for (hexan = 0; hexan < 10; hexan++)
-    {
-      putchar((hexan % 10) + '0');
-    }
-  for (hexa = 'a'; hexa <= 'f'; hexa++)
-    {
-      putchar(hexa);
-    }
+for (hexan = 0; hexan < 10; hexan++)
+{
+putchar((hexan % 10) + '0');
+}
+for (hexa = 'a'; hexa <= 'f'; hexa++)
+{
+putchar(hexa);
+}
 
-  putchar('\n');
+putchar('\n');
 
-  return (0);
+return (0);
 }

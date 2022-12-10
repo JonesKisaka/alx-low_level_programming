@@ -9,21 +9,21 @@
 
 int main(void)
 {
-  char letter;
+char letter;
 
-  char capital;
+char capital;
 
-  for (letter = 'a'; letter <= 'z'; letter++)
-    {
-      putchar (letter);
-    }
+for (letter = 'a'; letter <= 'z'; letter++)
+{
+putchar (letter);
+}
 
-  for (capital = 'A'; capital <= 'Z'; capital++)
-    {
-      putchar (capital);
-    }
+for (capital = 'A'; capital <= 'Z'; capital++)
+{
+putchar (capital);
+}
 
-  putchar('\n');
+putchar('\n');
 
-  return (0);
+return (0);
 }

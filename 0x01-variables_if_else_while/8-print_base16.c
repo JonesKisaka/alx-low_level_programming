@@ -1,6 +1,4 @@
-able File  27 lines (21 sloc)  345 Bytes
-
-  #include <stdio.h>
+#include <stdio.h>
 
 /**
  *main - prints all the numbers of base 16 in lowercase, followed by a new line
